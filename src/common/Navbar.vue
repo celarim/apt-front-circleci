@@ -80,7 +80,7 @@ const goToMyPortpolio = () =>{
       <!-- Logo -->
       <router-link to="/" class="navbar-brand text-black"  @click="resetSearch">
         <img src="../images/money.png" alt="Across The Pacific Logo"/>
-        <span class="ms-2">Across The Pacific</span>
+        <span class="ms-2">Across The Pacific2</span>
       </router-link>
 
       <!-- Toggle button for smaller screens -->
