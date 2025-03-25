@@ -1,5 +1,5 @@
 <script setup>
-import Portfolio from './Portfolio.vue';
+import Portfolio from './portfolio.vue';
 import { usePortfolioListStore } from '../stores/usePortfolioListStore';
 import { ref, onMounted, computed, watch, watchEffect} from 'vue'
 import { useLoadingStore } from '../stores/useLoadingStore'
