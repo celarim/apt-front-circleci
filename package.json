@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
-    "esbuild": "^0.24.0",
+    "esbuild": "^0.25.1",
     "vite": "^6.0.3"
   }
 }
