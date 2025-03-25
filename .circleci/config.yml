@@ -8,7 +8,7 @@ parameters:
 jobs:
   vue-build:
     docker:
-      - image: cimg/node:lts
+      - image: cimg/node:22.12
     working_directory: ~/frontend
     steps:
       - checkout
