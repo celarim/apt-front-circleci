@@ -16,6 +16,9 @@ jobs:
           name: Install dependencies
           command: npm install
       - run:
+          name: fix
+          command: npm audit fix
+      - run:
           name: Build frontend
           command: npm run build
       - persist_to_workspace:
