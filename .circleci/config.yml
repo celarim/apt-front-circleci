@@ -8,19 +8,13 @@ parameters:
 jobs:
   vue-build:
     docker:
-      - image: cimg/node:20.5.0
+      - image: cimg/node:lts
     working_directory: ~/frontend
     steps:
       - checkout
       - run:
-          name: Remove node_modules and package-lock.json
-          command: rm -rf node_modules package-lock.json
-      - run:
-          name: Clean npm cache
-          command: npm cache clean --force
-      - run:
           name: Install dependencies
-          command: npm install --no-optional
+          command: npm install
       - run:
           name: Build frontend
           command: npm run build
