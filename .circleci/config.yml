@@ -17,7 +17,7 @@ jobs:
           command: npm install
       - run:
           name: fix
-          command: npm audit fix
+          command: npm audit fix --force
       - run:
           name: Build frontend
           command: npm run build
