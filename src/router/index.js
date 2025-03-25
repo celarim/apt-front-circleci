@@ -7,7 +7,7 @@ import EndSignup from '../user/EndSignup.vue';
 import Main from "../common/Main.vue";
 import PortfolioDetail from "../portfolio/PortfolioDetail.vue";
 import StockDetail from "../stock/StockDetail.vue";
-import UserPort from "../common/UserPort.vue";
+import UserPort from "../common/userPort.vue";
 import CreatePortfolio from "../portfolio/PortCreate.vue";
 import StockList from "../stock/StockList.vue";
 import Login from "../user/Login.vue";
