@@ -13,8 +13,14 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Remove node_modules and package-lock.json
+          command: rm -rf node_modules package-lock.json
+      - run:
+          name: Clean npm cache
+          command: npm cache clean --force
+      - run:
           name: Install dependencies
-          command: npm ci
+          command: npm install --no-optional
       - run:
           name: Build frontend
           command: npm run build
